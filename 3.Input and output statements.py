@@ -6,3 +6,4 @@ girl_age =int(input("girl age = "))
 age_diff = abs(boy_age - girl_age)
 print(boy_name + " loves " + girl_name + ". age differnce is " + str(age_diff))
 print(f"{boy_name} loves {girl_name}. age differnce is {age_diff}")
+#hdc
