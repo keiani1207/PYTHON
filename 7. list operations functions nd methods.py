@@ -121,3 +121,8 @@ c.insert(2,300)
 print(c)
 c.pop(2)
 print(c)
+
+#type checking
+print(type(c))
+
+ 

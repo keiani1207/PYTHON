@@ -180,3 +180,4 @@ print("hi HELLO evERyone!!".title())
 
 # 34. upper() method converts all lowercase characters in a string to uppercase and returns a brand-new modified string.
 print("hello".upper())
+

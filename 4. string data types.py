@@ -79,3 +79,8 @@ print(len(pqr))
 print("hello\n\twrold")
 print ("this is a blacklash : \\")
 
+o = "appl"
+print(o + ("e"))
+
+g = "yu"
+print(g[:1] + ("o") + g[1:])
