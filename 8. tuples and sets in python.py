@@ -67,3 +67,8 @@ print(4 in t)
 
 c = ("hi","hello","jkk")
 print("hi" in c)
+
+# concantination
+z=("hg","lo")
+i=("aq","ek")
+print(z + i)
