@@ -53,7 +53,7 @@ print("x" in my_string)
 print("x" not in my_string)
 
 q = input("enter a string = ")
-print("a" in q)
+print("a" in q)  
 print("python" not in q)
 
 #combining both membership and logical operator

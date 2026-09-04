@@ -60,3 +60,10 @@ print(d.count(2))
 
 # index()
 print(d.index(2))
+
+#operator
+t=(4,9,2,3)
+print(4 in t)
+
+c = ("hi","hello","jkk")
+print("hi" in c)

@@ -153,3 +153,10 @@ print(n[:3] + [n[3][1]])
 t =[2,6,4,3]
 print(list(str(t) for t in [2,6,4,3]))
 print([t[0]]+ list(str(t) for t in [6,4]) + [t[3]])
+
+#opertor
+c=[4,9,1,0]
+print(4 in c)
+
+j=["hi","hw"]
+print("ho" in j)
