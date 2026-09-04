@@ -50,3 +50,13 @@ print(u[:5] + (u[5][1],))
 
 k=(6,9,0,9,6,[4,2,0,1])
 print(k[:5] + (k[5],))
+
+# repitation of tuple
+d =(1,2,1,2)
+print(d*3)
+
+# count()
+print(d.count(2))
+
+# index()
+print(d.index(2))
