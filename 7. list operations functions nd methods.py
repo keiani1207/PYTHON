@@ -20,6 +20,8 @@ print(w)
 #If you want to keep the original list unchanged while creating a new one with the added item, you can use the addition operator (+)
 w=[1,2,0.5,9,4]
 print(w + [5])
+d =[1,3,9,7,5]
+print(d + [6,4] + [0])
 
 #Method 1: Using Slicing (Recommended)
 #You can split the list around the target index, add the new element in the middle, and join them together using the + operator
@@ -125,4 +127,14 @@ print(c)
 #type checking
 print(type(c))
 
- 
+# converting tuple to list
+p=("h","e","l")
+print(list(p))
+# or
+print(list((p)))
+print(p)
+
+# combining 2 lists
+n =[1,3,9,[6,4,0]]
+print(n[:3]+n[3])
+print(n[:3] + n[3][1:2]) 
