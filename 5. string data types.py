@@ -181,3 +181,19 @@ print("hi HELLO evERyone!!".title())
 # 34. upper() method converts all lowercase characters in a string to uppercase and returns a brand-new modified string.
 print("hello".upper())
 
+#convert string to list/tuple
+y = "hi"
+print(list(y))
+print(tuple(y))
+
+r ="hi,ho,hello"
+print(r.split(","))
+print(r)
+s = r.split(",")
+print(tuple(s))
+
+h="hi,he,she.d"
+p=h.replace(".",",")
+g=p.split(",")
+print(g)
+print(tuple(g))
