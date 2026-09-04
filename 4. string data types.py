@@ -85,3 +85,7 @@ print(o + ("e"))
 g = "yu"
 print(g[:1] + ("o") + g[1:])
 
+# concatination
+l="xu "
+n="v"
+print(l + n)
