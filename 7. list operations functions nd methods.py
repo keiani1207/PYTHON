@@ -161,3 +161,7 @@ print(4 in c)
 j=["hi","hw"]
 print("ho" in j)
 
+#concatination of lists
+s=[8,2,4]
+x=[4,6,5]
+print(s + x) 

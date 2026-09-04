@@ -3,6 +3,7 @@ s = ("a","d","h","k")
 print(s)
 w = ("s",2,34.43)
 print(w)
+print(len(w))  #length of tuple
 
 #creating a single tuple
 name =("sun",)

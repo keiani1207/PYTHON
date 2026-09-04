@@ -197,3 +197,6 @@ p=h.replace(".",",")
 g=p.split(",")
 print(g)
 print(tuple(g))
+
+r ="hi,ho,hello"
+print(tuple(r))
