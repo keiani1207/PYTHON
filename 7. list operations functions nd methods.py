@@ -134,7 +134,22 @@ print(list(p))
 print(list((p)))
 print(p)
 
+p=("h","e","l",["l","o"])
+print(list(p))
+
+g =["p","h","y",("t","o","n")]
+print(g[0:3] + [g[3]])
+
+r=["p","h","y",list(("t","o","n"))]
+print(r[0:3] + r[3])
+
 # combining 2 lists
 n =[1,3,9,[6,4,0]]
 print(n[:3]+n[3])
 print(n[:3] + n[3][1:2]) 
+print(n[:3] + [n[3][1]])
+
+#type conversions
+t =[2,6,4,3]
+print(list(str(t) for t in [2,6,4,3]))
+print([t[0]]+ list(str(t) for t in [6,4]) + [t[3]])
