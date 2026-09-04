@@ -34,3 +34,17 @@ print(tuple(str(i) for i in (4,5,2)) +(1,9,6))
 print(tuple([2,5,3]))
 
 print("hi")
+
+#combining the nested tuples
+u=(6,9,0,9,6,(4,2,1))
+print(u[:5] + u[5])
+print(u[:5] + u[5][1:2])
+print(u)
+
+# u can concatate tuple to tuple only
+u=(6,9,0,9,6,tuple([4,2,1]))
+print(u[:5] + u[5])
+print(u[:5] + u[5][1:2])
+#or
+print(u[:5] + (u[5][1],))
+
