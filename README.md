@@ -11,7 +11,7 @@ I am **building in public** as I learn Python from scratch! This repository trac
 5. **`5. string data types.py`** – String methods
 6. **`6. operators.py`** – Arithmetic and logical operators
 7. **`7. list operations functions nd methods.py`** – List methods and operations
-
+8. **`8. tuples and sets in python.py`** - tuples and sets in python
 ---
 
 ## 🎯 Goal
