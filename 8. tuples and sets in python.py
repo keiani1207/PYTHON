@@ -1,4 +1,4 @@
-# tuple are ordered immutable and we can duplicate
+# tuple are ordered immutable and we can duplicate elements
 # creating a tuple
 s = ("a","d","h","k")
 print(s)
