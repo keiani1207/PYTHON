@@ -10,6 +10,10 @@ print(len(w))  #length of tuple
 name =("sun",)
 print(name)
 
+#nested tuple
+u=(1,7,3,(5,0))
+print(u)
+
 #accessing tuple elements
 name =("sun","moon","star")
 print(name[1]) 
