@@ -81,3 +81,5 @@ print(z + i)
 
 #SETSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 #sets are unqiue,unordered,unindexed
+i = {3,1,90}
+print(i) #unorderd
