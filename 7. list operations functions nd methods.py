@@ -1,3 +1,4 @@
+#lists are ordered mutable and we can duplicate elements
 #creating a list
 my_list = [1,"a",[2,5,"d"]]
 print(my_list)
