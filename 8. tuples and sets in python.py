@@ -78,3 +78,6 @@ print("hi" in c)
 z=("hg","lo")
 i=("aq","ek")
 print(z + i)
+
+#SETSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+#sets are unqiue,unordered,unindexed
