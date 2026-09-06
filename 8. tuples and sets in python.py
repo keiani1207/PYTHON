@@ -1,3 +1,4 @@
+# tuple are ordered immutable and we can duplicate elements
 # creating a tuple
 s = ("a","d","h","k")
 print(s)
@@ -8,6 +9,10 @@ print(len(w))  #length of tuple
 #creating a single tuple
 name =("sun",)
 print(name)
+
+#nested tuple
+u=(1,7,3,(5,0))
+print(u)
 
 #accessing tuple elements
 name =("sun","moon","star")

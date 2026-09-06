@@ -86,8 +86,8 @@ print("½".isdigit()) #false
 print("Ⅷ".isdigit()) #false
 
 # 13. isidentifier() method checks whether a string is a valid identifier (meaning it can legally be used as a variable name, function name, or class name in Python code), returning a boolean (True or False).
-print("1asgg_12".isidentifier())
-print("if_12".isidentifier())
+print("1asgg_12".isidentifier()) # false
+print("if_12".isidentifier()) #true
 
 # 14. .islower() method checks whether all cased characters in a string are lowercase and whether there is at least one cased character, returning a boolean (True or False).
 print("bhqwdodh".islower()) #true
