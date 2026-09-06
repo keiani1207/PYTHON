@@ -80,6 +80,7 @@ i=("aq","ek")
 print(z + i)
 
 #SETSSSSSSSSSSSSSSSSSSSSSSSSSSSS
-#sets are unqiue,unordered,unindexed
+#sets are unqiue,unordered,unindexed(not indexing)
 i = {3,1,90}
 print(i) #unorderd
+
