@@ -200,3 +200,9 @@ print(tuple(g))
 
 r ="hi,ho,hello"
 print(tuple(r))
+
+d= "sun","moon"
+print(d)
+
+d= "sun,moon"
+print(d)
