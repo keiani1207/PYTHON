@@ -83,5 +83,8 @@ print(z + i)
 i = {3,1,90}
 print(i) #unorderd
 
-print(set((36,0,90)))
+print(set((36,0,90))) #creating sets with func-set()
+
+#type checking 
+print(type(i))
 
