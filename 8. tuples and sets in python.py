@@ -104,3 +104,4 @@ v ={3,5,1}
 p ={6,3,0}
 print(v | p)
 print(v & p)
+print(v - p)
