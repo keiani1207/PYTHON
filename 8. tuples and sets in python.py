@@ -99,3 +99,7 @@ b = set() # b={} nooo bcz it will become empty dict
 print(b)
 print(type(b))
 
+# union, intersection, difference, symmetric difference
+v ={3,5,1}
+p ={6,3,0}
+print(v | p)
