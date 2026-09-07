@@ -85,7 +85,7 @@ print(m)
 print(type(m))
 
 #SETSSSSSSSSSSSSSSSSSSSSSSSSSSSS
-#sets are unqiue,unordered,unindexed(not indexing)
+#sets are unqiue,unordered,unindexed(not indexing),it can be mutable
 i = {3,1,90}
 print(i) #unorderd
 
