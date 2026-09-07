@@ -106,3 +106,15 @@ print(v | p)
 print(v & p)
 print(v - p)
 print(v ^ p)
+
+
+r={5,"hi",9.5}
+print(r)
+
+# add
+r.add(0)
+print(r)
+
+#remove
+r.remove(5)
+print(r)
