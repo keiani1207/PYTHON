@@ -122,3 +122,7 @@ print(r)
 #pop()
 r.pop() # here we can't give arguments like lists because sets are unordered and unindexed
 print(r) 
+
+#clear()
+r.clear()
+print(r)
