@@ -120,5 +120,5 @@ r.remove(5)
 print(r)
 
 #pop()
-r.pop() 
-print(r)
+r.pop() # here we can't give arguments like lists because sets are unordered and unindexed
+print(r) 
