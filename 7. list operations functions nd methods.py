@@ -170,3 +170,7 @@ print(s + x)
 h=[[1,2],
    [3,0]]
 print(h)
+
+# empty list
+e=list() #or e =[]
+print(e)
