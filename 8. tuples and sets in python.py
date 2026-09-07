@@ -78,6 +78,12 @@ print("hi" in c)
 z=("hg","lo")
 i=("aq","ek")
 print(z + i)
+
+#empty tuple()
+m = () # m = tuple()
+print(m)
+print(type(m))
+
 #SETSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 #sets are unqiue,unordered,unindexed(not indexing)
 i = {3,1,90}
@@ -87,4 +93,9 @@ print(set((36,0,90))) #creating sets with func-set()
 
 #type checking 
 print(type(i))
+
+#empty set
+b = set() # b={} nooo bcz it will become empty dict 
+print(b)
+print(type(b))
 
