@@ -118,3 +118,7 @@ print(r)
 #remove
 r.remove(5)
 print(r)
+
+#pop()
+r.pop() 
+print(r)
