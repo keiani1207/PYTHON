@@ -133,3 +133,6 @@ print(o[2:3])
 print(o[3:4])
 p=(5,6,2,0)
 print(o + p)
+
+f1={"apple","pineapple","strawberry"}
+f2={"mango","banana","berry"}
