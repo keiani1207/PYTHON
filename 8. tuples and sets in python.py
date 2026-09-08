@@ -126,3 +126,5 @@ print(r)
 #clear()
 r.clear()
 print(r)
+
+#Eng in kannada - H.W
