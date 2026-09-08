@@ -129,3 +129,5 @@ print(r)
 
 #Eng in kannada - H.W
 o=(8,0,1,9,5)
+print(o[2:3])
+print(o[3:4])
