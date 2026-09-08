@@ -140,4 +140,4 @@ print(f1 | f2)
 print(f1 & f2)
 print(f1 - f2)
 f1.add("guva")
-print
+print(f1)
