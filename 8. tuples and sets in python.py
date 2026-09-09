@@ -145,3 +145,5 @@ f1.remove("apple")
 print(f1)
 f1.discard("hoova")
 print(f1)
+
+a = []
