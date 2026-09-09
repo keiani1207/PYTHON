@@ -149,4 +149,4 @@ print(f1)
 a = [3,5,6,0]
 v = (tuple((a)))
 print(v)
-print(set((a)))
+c= (set((a)))
