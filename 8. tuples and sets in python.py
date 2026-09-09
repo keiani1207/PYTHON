@@ -147,4 +147,4 @@ f1.discard("hoova")
 print(f1)
 
 a = [3,5,6,0]
-print
+print(tuple((a)))
