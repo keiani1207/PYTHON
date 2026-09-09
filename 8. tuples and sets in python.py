@@ -142,4 +142,5 @@ print(f1 - f2)
 f1.add("guva")
 print(f1)
 f1.remove("apple")
+
 f1.discard("hoova")
