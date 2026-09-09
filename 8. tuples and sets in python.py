@@ -147,6 +147,6 @@ f1.discard("hoova")
 print(f1)
 
 a = [3,5,6,0]
-a = (tuple((a)))
+v = (tuple((a)))
 print(v)
 print(set((a)))
