@@ -148,3 +148,4 @@ print(f1)
 
 a = [3,5,6,0]
 print(tuple((a)))
+print(set(()))
