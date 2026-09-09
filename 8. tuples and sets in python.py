@@ -148,5 +148,5 @@ print(f1)
 
 a = [3,5,6,0]
 a = (tuple((a)))
-
+print
 print(set((a)))
