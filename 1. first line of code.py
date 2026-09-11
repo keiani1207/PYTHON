@@ -1,6 +1,6 @@
 # "print" function
 print("hello wrold!!")
-print
+print()
 
 # Python is dynamically typed, example :
 a = 10
