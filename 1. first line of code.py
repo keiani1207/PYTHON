@@ -1,6 +1,6 @@
 # "print" function
 print("hello wrold!!")
-print("I will lead through my heart,not from head - prin")
+print("I will lead through my heart,not from head - Princess diana")
 
 # Python is dynamically typed, example :
 a = 10
