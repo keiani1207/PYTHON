@@ -9,7 +9,8 @@ print(f"The Total Amount Should Be Paid is {FAP}. And Each Person Should Pay {x}
 
 #Time Converter
 TS=int(input("Enter The Total Number Of Seconds = "))
-x =TS/3600
-y = TS/60
-z=TS
-print(f"{x} Hours {y} min {y} seconds")
+x=TS//3600
+a=TS%3600
+y=a//60
+b=a%60
+print({x} Hours {y} Minutes {b}seconds)
