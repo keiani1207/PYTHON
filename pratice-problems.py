@@ -13,4 +13,4 @@ x=TS//3600
 a=TS%3600
 y=a//60
 b=a%60
-print({x} Hours {y} Minutes {b}seconds)
+print(f"{x} Hours {y} Minutes {b}seconds")
