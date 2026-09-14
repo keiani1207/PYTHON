@@ -22,7 +22,7 @@ print(w)
 w=[1,2,0.5,9,4]
 print(w + [5])
 d =[1,3,9,7,5]
-print(d + [6,4] + [0])
+print(d + [6,4] + [[0]])
 
 #Method 1: Using Slicing (Recommended)
 #You can split the list around the target index, add the new element in the middle, and join them together using the + operator
@@ -151,9 +151,10 @@ print(n[:3] + n[3][1:2])
 print(n[:3] + [n[3][1]])
 
 #type conversions
-t =[2,6,4,3]
-print(list(str(t) for t in [2,6,4,3]))
-print([t[0]]+ list(str(t) for t in [6,4]) + [t[3]])
+t =[2.90,6,5.67,3]
+print(list(int(t) for t in [2.90,6,5.67,3]))
+print(tuple(str(t) for t in [2.90,6,5.67,3]))
+print([t[0]]+ list(int(t) for t in [6,5.67]) + [t[3]])
 
 #opertor
 c=[4,9,1,0]

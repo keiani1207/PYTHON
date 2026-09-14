@@ -60,6 +60,7 @@ print("éñüçåприветγειαمرحبا".isalnum()) #true
 print("½".isalnum()) #Unicode fraction characters are also considered #true
 print("²".isalnum()) #true
 print("Ⅷ".isalnum()) #true
+print("12.34".isalnum())
 
 # 9. isalpha() method checks whether all characters in a string are alphabetic (meaning only letters from the alphabet, with no numbers, spaces, or symbols) and returns a boolean (True or False).
 print("hgsins ".isalpha()) #false
@@ -100,6 +101,7 @@ print("hdhhd".isnumeric()) #false
 print("½".isnumeric()) # Output: True (Fractions are numeric)
 print("²".isnumeric())   # Output: True (Superscripts are numeric)
 print("Ⅷ".isnumeric())   # Output: True (Roman numerals are numeric)
+print("12.34".isnumeric()) #output: False
 
 # 16. isprintable() method checks whether all characters in a string are considered "printable" (meaning they occupy space on a screen or can be rendered visibly) and returns a boolean (True or False).
 print("hello\rhi".isprintable())  # false
