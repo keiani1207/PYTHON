@@ -1,5 +1,5 @@
 TA = float(input("Total Amount Of Bill To Pay = "))
-TipAmount=int(input("Tip Amount they wanna Give = "))
+TipAmount=int(input("Tip percentage they wanna Give = "))
 Splitbill=int(input("Number of people who are splitting bill = "))
 FAP = TA+TipAmount
 x=FAP/Splitbill
