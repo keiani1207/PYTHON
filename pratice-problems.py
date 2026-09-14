@@ -7,3 +7,5 @@ FAP = TA+TipAmount
 x=FAP/Splitbill
 print(f"The Total Amount Should Be Paid is {FAP}. And Each Person Should Pay {x}. Mode Of Payment is Cash or Card Sir??")
 
+#Time Converter
+TS=int(input("Enter The Total Number Of Seconds = "))
