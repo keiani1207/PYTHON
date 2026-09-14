@@ -12,3 +12,4 @@ TS=int(input("Enter The Total Number Of Seconds = "))
 x =TS/3600
 y = TS/60
 z=TS
+print(f"{x} Hours {y} min {y} seconds")
