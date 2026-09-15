@@ -36,6 +36,8 @@ i = (4,5,2,1,9,6)
 print((4,) + tuple(str(i) for i in (5,2))+ (1,9,6))
 print(tuple(str(i) for i in (4,5,2)) +(1,9,6))
 
+print("------\n")
+
 #converting list into tuple
 print(tuple([2,5,3]))
 
@@ -152,5 +154,6 @@ print(len(v))
 print(v)
 c = (set((a)))
 print(c)
+print(len(c))
 c.add(7)
 print(c)
