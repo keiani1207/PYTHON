@@ -205,6 +205,7 @@ print(tuple(r))
 
 d= "sun","moon"
 print(d)
+print(type(d))
 
 d= "sun,moon"
 print(d)
