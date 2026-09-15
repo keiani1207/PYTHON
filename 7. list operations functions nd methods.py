@@ -175,3 +175,11 @@ print(h)
 # empty list
 e=list() #or e =[]
 print(e)
+
+u=[[2,4,3]]
+z=list(u)
+print(len(z))
+ #orr
+u=([2,4,3],)
+z=list(u)
+print(len(z))
