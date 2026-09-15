@@ -60,7 +60,7 @@ print("éñüçåприветγειαمرحبا".isalnum()) #true
 print("½".isalnum()) #Unicode fraction characters are also considered #true
 print("²".isalnum()) #true
 print("Ⅷ".isalnum()) #true
-print("12.34".isalnum())
+print("12.34".isalnum()) #false
 
 # 9. isalpha() method checks whether all characters in a string are alphabetic (meaning only letters from the alphabet, with no numbers, spaces, or symbols) and returns a boolean (True or False).
 print("hgsins ".isalpha()) #false
