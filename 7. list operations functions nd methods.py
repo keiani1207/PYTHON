@@ -131,19 +131,40 @@ print(type(c))
 # converting tuple to list
 p=("h","e","l")
 print(list(p))
-# or
+print(len(p))
+
 print(list((p)))
-print(p)
+print(len(p))
+
+p=(("h","e","l"),)
+print(list(p))
+print(len(p))
+
+print(list((p)))
+print(len(p))
+
+print("------------------\n")
+
 
 p=("h","e","l",["l","o"])
 print(list(p))
 print(len(p))
 
-g =["p","h","y",("t","o","n")]
-print(g[0:3] + [g[3]])
+print(";;;;;;;;;;;;;\n")
 
 r=["p","h","y",list(("t","o","n"))]
+print(r)
+print(len(r))
 print(r[0:3] + r[3])
+
+g =["p","h","y",("t","o","n")]
+print(g)
+print(len(g))
+print(g[0:3] + [g[3]])
+
+u=[(3,4)]
+print(list(u))
+print(len(u))
 
 # combining 2 lists
 n =[1,3,9,[6,4,0]]
@@ -183,10 +204,12 @@ print(len(z))
  #orr
 u=([2,4,3],)
 z=list(u)
+print(z)
 print(len(z))
 #orr
 u=(([2,8,9]))
 z=(list(u))
+print(z)
 print(len(z))
 
 u=((["hi","hello"]))
