@@ -183,3 +183,7 @@ print(len(z))
 u=([2,4,3],)
 z=list(u)
 print(len(z))
+#or
+u=([[2,8,9]])
+z=(list(u))
+print(len(z))
