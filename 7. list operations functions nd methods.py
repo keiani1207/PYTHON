@@ -137,6 +137,7 @@ print(p)
 
 p=("h","e","l",["l","o"])
 print(list(p))
+print(len(p))
 
 g =["p","h","y",("t","o","n")]
 print(g[0:3] + [g[3]])
@@ -183,7 +184,22 @@ print(len(z))
 u=([2,4,3],)
 z=list(u)
 print(len(z))
-#or
-u=([[2,8,9]])
+#orr
+u=(([2,8,9]))
 z=(list(u))
 print(len(z))
+
+u=((["hi","hello"]))
+z=(list(u))
+print(z)
+print(len(z))
+
+u=((["hi","hello"],))
+z=(list(u))
+print(z)
+print(len(z))
+
+r=["p","h","y",list(("t","o","n"),)]
+print(len(r))
+print(r)
+print(r[0:3] + r[3])

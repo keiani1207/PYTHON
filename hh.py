@@ -1,3 +1,4 @@
-u=([[2,8,9]])
-z=(list(u))
-print(len(z))
+r=["p","h","y",list(("t","o","n"),)]
+print(len(r))
+print(r)
+print(r[0:3] + r[3])
