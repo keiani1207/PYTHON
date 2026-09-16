@@ -81,6 +81,10 @@ print(sum(s))
 
 #index(element) - Returns the index number of the specified element.
 print(s.index(900))
+s =[700,200,100,500,900,600,900,300]
+print(s.index(900,5,7))
+
+print("////////////////\n")
 
 #count(element) - Returns the number of occurrences of an element in the list.
 print(s.count(700))
