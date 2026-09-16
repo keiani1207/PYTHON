@@ -160,3 +160,7 @@ print(c)
 print(len(c))
 c.add(7)
 print(c)
+
+#type conversion in sets
+s={2,5}
+print(set(str(s) for s in {2,5}))
