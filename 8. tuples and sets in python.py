@@ -69,6 +69,9 @@ print(d.count(2))
 # index()
 print(d.index(2))
 
+d =(1,2,1,2,0,6)
+print(d.index(2,2))
+
 #operator
 t=(4,9,2,3)
 print(4 in t)
