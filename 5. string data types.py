@@ -168,7 +168,7 @@ print("hi helloeveryone ,, 123".split(" ",1))
 # 30. startswith() - checks whether a string starts with a specified character or substring. It returns True if it starts with it, otherwise False.
 print("hello hi everyone".startswith("hello")) #true
 print(" hi hello hello everyone hello".startswith(" ")) #true
-print("hello everyone hello".startswith("e",6))
+print("hello everyone hello".startswith("e",6)) #true
 
 # 31. strip() method removes leading and trailing characters (from both the left and right sides of a string) and returns the modified string.
 print("  hello hi".strip())
