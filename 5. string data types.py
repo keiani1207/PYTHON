@@ -31,7 +31,7 @@ print("banana".count("a",2,6))
 
 # 4. endswith() - it is a python string method that checks whether a string ends with a particular character or word. it returns true or false.
 print("hello.".endswith(".")) #true
-print("hello.3".endswith("3",0,3))
+print("hello.3".endswith("3",0,3)) #false
 print("hello.3".endswith("."))
 
 # 5. find() - in Python is a string method used to find the position (index) where a specified substring starts inside a string.
