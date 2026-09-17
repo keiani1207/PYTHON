@@ -166,7 +166,7 @@ print("hi-helloeveryone ,, 123".split())
 print("hi helloeveryone ,, 123".split(" ",1))
 
 # 30. startswith() - checks whether a string starts with a specified character or substring. It returns True if it starts with it, otherwise False.
-print("hello hi everyone".startswith("hello"))
+print("hello hi everyone".startswith("hello")) #true
 print(" hi hello hello everyone hello".startswith(" "))
 print("hello everyone hello".startswith("e",6))
 
