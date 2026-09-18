@@ -33,4 +33,6 @@ print("eligible:",(maths>=70 and science>=70) or total_marks >= 160)
 
 #Keyword & Character Finder
 secret = "PythonProgramming2026"
-char=input("enter the text or word = ")
+y=input("enter the text or word = ")
+print(y in secret)
+print('x' not in secret)
