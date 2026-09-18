@@ -16,8 +16,5 @@ print(type(s))
 #Eligible for Admission Check
 maths = int(input("math score = "))
 science=int(input("science score = "))
-total_marks = maths + science
-if ((maths>=70 and science>=70) or (total_marks>=160)):
-    print("eligible for admission")
-else:
-    print("not eligible for admission")
+total_marks=maths + science
+print("eligible:",(maths>=70 and science>=70) or total_marks >160)
