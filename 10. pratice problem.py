@@ -19,21 +19,11 @@ science=int(input("science score = "))
 total_marks=maths + science
 print("eligible:",(maths>=70 and science>=70) or total_marks >160)
 
-##Eligible for Admission Check
-maths = int(input("math score = "))
-science=int(input("science score = "))
-total_marks=maths + science
-print("eligible:",(maths>=70 and science>=70) or total_marks >= 160)
-
 #Keyword & Character Finder
 secret = "PythonProgramming2026"
 y=input("enter the text or word = ")
 print(y in secret)
 print('x' not in secret)
 
-##Eligible for Admission Check
-maths = int(input("math score = "))
-science=int(input("science score = "))
-total_marks=maths + science
-print("eligible:",(maths>=70 and science>=70) or total_marks >= 160)
+
 
