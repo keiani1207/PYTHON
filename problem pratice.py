@@ -5,3 +5,14 @@ z=y.replace("hate","love")
 a=z.upper()
 print(a)
 
+#Compound Interest / Balance Tracker
+s=1000
+s*=2
+s-=350
+s/=2
+print(s)
+print(type(s))
+
+#Eligible for Admission Check
+maths = int(input("math score = "))
+science=int(input("science score = "))
