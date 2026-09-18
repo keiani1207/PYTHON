@@ -30,9 +30,9 @@ print("i love apple, apple are my fav. apple are sweet".count("apple"))
 print("banana".count("a",2,6))
 
 # 4. endswith() - it is a python string method that checks whether a string ends with a particular character or word. it returns true or false.
-print("hello.".endswith("."))
-print("hello.3".endswith("3",0,3))
-print("hello.3".endswith("."))
+print("hello.".endswith(".")) #true
+print("hello.3".endswith("3",0,3)) #false
+print("hello.3".endswith(".")) #false
 
 # 5. find() - in Python is a string method used to find the position (index) where a specified substring starts inside a string.
 print("hi python world".find("python"))
@@ -166,9 +166,9 @@ print("hi-helloeveryone ,, 123".split())
 print("hi helloeveryone ,, 123".split(" ",1))
 
 # 30. startswith() - checks whether a string starts with a specified character or substring. It returns True if it starts with it, otherwise False.
-print("hello hi everyone".startswith("hello"))
-print(" hi hello hello everyone hello".startswith(" "))
-print("hello everyone hello".startswith("e",6))
+print("hello hi everyone".startswith("hello")) #true
+print(" hi hello hello everyone hello".startswith(" ")) #true
+print("hello everyone hello".startswith("e",6)) #true
 
 # 31. strip() method removes leading and trailing characters (from both the left and right sides of a string) and returns the modified string.
 print("  hello hi".strip())
