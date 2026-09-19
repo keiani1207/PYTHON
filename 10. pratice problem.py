@@ -34,3 +34,5 @@ print(a^b)
 print(a<<2)
 print(a>>1)
 
+#Receipt Alignment
+print("ITEM\tQTY\tPRIZE\nApple\t4\t$2.50\nMilk\t1\t3.20")
