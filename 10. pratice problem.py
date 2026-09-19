@@ -48,3 +48,6 @@ y=x.replace("_"," ")
 z=y.upper()
 print(z)
 
+#Range and Parity Checker
+e=int(input("enter one intger = "))
+print((e>=10 and e<=50) and (e%2==0))
