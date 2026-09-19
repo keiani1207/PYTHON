@@ -47,3 +47,4 @@ x=raw_data.strip()
 y=x.replace("_"," ")
 z=y.upper()
 print(z)
+
