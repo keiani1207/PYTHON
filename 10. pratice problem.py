@@ -43,3 +43,6 @@ print(website[13:19])
 
 #Clean and Swap
 raw_data = "   data_science_with_python   "
+x=raw_data.strip()
+y=x.replace("-"," ")
+print(x)
