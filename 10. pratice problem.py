@@ -40,3 +40,6 @@ print("ITEM\tQTY\tPRIZE\nApple\t4\t$2.50\nMilk\t1\t3.20")
 #Domain Stripper via Slicing
 website = "[https://www.python.org](https://www.python.org)"
 print(website[13:19])
+
+#Clean and Swap
+raw_data = "   data_science_with_python   "
