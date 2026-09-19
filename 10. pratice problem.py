@@ -51,3 +51,11 @@ print(z)
 #Range and Parity Checker
 e=int(input("enter one intger = "))
 print((e>=10 and e<=50) and (e%2==0))
+
+#username and domain extractor
+x=input("enter ur email = ")
+y=x.strip()
+z=y.lower()
+print(z[0])
+print(z[-1])
+print(z * 3)
