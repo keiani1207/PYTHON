@@ -58,7 +58,7 @@ print("python" not in q)
 
 #combining both membership and logical operator
 x="hello world"
-print(("h" in x) and ("d" in x))
+print(("h" in x) and ("d" in x)) # true
 
 
 #bitwise operator
