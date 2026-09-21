@@ -48,7 +48,7 @@ my_list = [1,2,3,4,5]
 my_string ="python"
 print(3 in my_list) #true
 print(7 in my_list) #false
-print(7 not in my_list)
+print(7 not in my_list) ₹true
 print("x" in my_string)
 print("x" not in my_string)
 
