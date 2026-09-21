@@ -74,7 +74,7 @@ print(r>>1)
 #identity operator
 x="hello"
 y="hello "
-print(x is y)
+print(x is y) #false
 
 s = "python "
 t="python"
