@@ -78,4 +78,4 @@ print(x is y)
 
 s = "python "
 t="python"
-print(s is not t)
+print(s is not t) #true
