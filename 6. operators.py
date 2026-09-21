@@ -49,7 +49,7 @@ my_string ="python"
 print(3 in my_list) #true
 print(7 in my_list) #false
 print(7 not in my_list) #true
-print("x" in my_string) 
+print("x" in my_string) #false
 print("x" not in my_string)
 
 q = input("enter a string = ")
