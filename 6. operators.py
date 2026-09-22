@@ -17,7 +17,7 @@ print(x)
 x = 10
 print(x == 12) #false
 print(x != 12) #true
-print(x >= 12)
+print(x >= 12) #false
 print(x <= 12)
 print(x < 12)
 print(x > 12)
