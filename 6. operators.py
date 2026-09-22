@@ -19,7 +19,7 @@ print(x == 12) #false
 print(x != 12) #true
 print(x >= 12) #false
 print(x <= 12) #true
-print(x < 12)
+print(x < 12) #true
 print(x > 12)
 
 age = int(input("Enter your age : "))
