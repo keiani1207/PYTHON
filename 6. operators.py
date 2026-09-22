@@ -32,7 +32,7 @@ x=5
 y=10
 print(x<10 or y>12) #true
 print(x>2 and x<12) #true
-print(x>10 and y<5)
+print(x>10 and y<5) #false
 print(not(x<10)) #false
 
 a = int(input("a = "))
