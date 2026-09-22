@@ -31,7 +31,7 @@ if(age>=18):
 x=5
 y=10
 print(x<10 or y>12) #true
-print(x>2 and x<12)
+print(x>2 and x<12) #true
 print(x>10 and y<5)
 print(not(x<10)) #false
 
